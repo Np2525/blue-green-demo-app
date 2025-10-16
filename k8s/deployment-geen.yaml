@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: mydockerhubuser/myapp:latest
+        image: np4833/myapp:latest
         ports:
         - containerPort: 3000
