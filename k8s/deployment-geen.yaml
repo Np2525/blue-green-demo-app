@@ -22,3 +22,5 @@ spec:
         image: np4833/myapp:latest
         ports:
         - containerPort: 3000
+      imagePullSecrets:
+      - name: my-docker-secret
